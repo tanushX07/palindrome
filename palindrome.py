@@ -1,10 +1,7 @@
-text = input("Enter a string: ")
-
-# Remove spaces and convert to lowercase
-cleaned = text.replace(" ", "").lower()
+text = "gadag"
 
 # Check palindrome
-if cleaned == cleaned[::-1]:
-    print("It is a palindrome!")
+if text == text[::-1]:
+    print(f"{text} is a palindrome")
 else:
-    print("It is NOT a palindrome.")
+    print(f"{text} is NOT a palindrome")
